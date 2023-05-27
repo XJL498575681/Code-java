@@ -1,4 +1,4 @@
-package com.xjl.InnerClass.c1;
+package com.xjl.InnerClass.jubuClass;
 /*
     演示局部内部类
  */
@@ -13,7 +13,6 @@ public class class1 {
 }
 //外部类
 class Outer{
-
     private int n1 = 100;
 
     public Outer() {
@@ -23,7 +22,6 @@ class Outer{
     public Outer(int n1) {
         this.n1 = n1;
     }
-
 
     private  void m1(){
         System.out.println("Outer的方法");
@@ -56,6 +54,4 @@ class Outer{
         Inner inner = new Inner();
         inner.f1();
     }
-
-
 }
