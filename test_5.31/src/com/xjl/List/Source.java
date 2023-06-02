@@ -8,7 +8,7 @@ public class Source {
 
 
         //无参构造器创建ArraysList 对象
-        ArrayList list = new ArrayList();
+        ArrayList list = new ArrayList(8);
         //10个
         for (int i = 1; i <= 10; i++) {
             list.add(i);
