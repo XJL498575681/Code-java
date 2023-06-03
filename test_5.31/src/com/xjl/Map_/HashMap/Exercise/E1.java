@@ -1,4 +1,4 @@
-package com.xjl.Map_.Exercise;
+package com.xjl.Map_.HashMap.Exercise;
 
 import java.util.*;
 

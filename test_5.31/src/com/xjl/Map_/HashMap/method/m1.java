@@ -1,4 +1,4 @@
-package com.xjl.Map_.method;
+package com.xjl.Map_.HashMap.method;
 
 
 import java.util.HashMap;

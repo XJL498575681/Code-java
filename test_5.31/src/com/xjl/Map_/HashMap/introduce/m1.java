@@ -1,8 +1,7 @@
-package com.xjl.Map_.introduce;
+package com.xjl.Map_.HashMap.introduce;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public class m1 {
     @SuppressWarnings({"all"})

@@ -1,14 +1,13 @@
-package com.xjl.Map_.Source;
+package com.xjl.Map_.HashMap.Source;
 
 import java.util.HashMap;
-import java.util.Objects;
 
 public class Source2 {
     public static void main(String[] args) {
 
         HashMap hashMap = new HashMap();
-        for (int i = 0; i <= 12 ; i++) {
-            hashMap.put(new A(i),"hello");
+        for (int i = 1; i <= 100 ; i++) {
+            hashMap.put(i,"hello");
         }
     }
 }
@@ -21,8 +20,8 @@ class A{
     }
 
 
-    @Override
-    public int hashCode() {
-        return 100;
-    }
+//    @Override
+//    public int hashCode() {
+//        return 100;
+//    }
 }
