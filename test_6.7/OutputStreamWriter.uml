@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.OutputStreamWriter</OriginalElement>
+  <nodes>
+    <node x="0.0" y="80.0">java.lang.Appendable</node>
+    <node x="158.0" y="80.0">java.io.Closeable</node>
+    <node x="169.5" y="160.0">java.io.Writer</node>
+    <node x="120.0" y="240.0">java.io.OutputStreamWriter</node>
+    <node x="141.5" y="0.0">java.lang.AutoCloseable</node>
+    <node x="297.0" y="80.0">java.io.Flushable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.OutputStreamWriter" target="java.io.Writer" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Writer" target="java.io.Flushable" relationship="REALIZATION">
+      <point x="32.0" y="-15.0" />
+      <point x="249.5" y="135.0" />
+      <point x="356.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Writer" target="java.io.Closeable" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Writer" target="java.lang.Appendable" relationship="REALIZATION">
+      <point x="-32.0" y="-15.0" />
+      <point x="185.5" y="135.0" />
+      <point x="69.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="207.5" y="135.0" />
+  <SelectedNodes>
+    <node>java.io.OutputStreamWriter</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.Reader</OriginalElement>
+  <nodes>
+    <node x="61.75" y="80.0">java.io.Closeable</node>
+    <node x="200.75" y="80.0">java.lang.Readable</node>
+    <node x="207.0" y="240.0">java.io.BufferedReader</node>
+    <node x="31.0" y="320.0">java.io.FileReader</node>
+    <node x="139.75" y="160.0">java.io.Reader</node>
+    <node x="45.25" y="0.0">java.lang.AutoCloseable</node>
+    <node x="0.0" y="240.0">java.io.InputStreamReader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.InputStreamReader" target="java.io.Reader" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="93.5" y="215.0" />
+      <point x="190.25" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.FileReader" target="java.io.InputStreamReader" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Reader" target="java.lang.Readable" relationship="REALIZATION">
+      <point x="25.25" y="-15.0" />
+      <point x="215.5" y="135.0" />
+      <point x="259.25" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Reader" target="java.io.Closeable" relationship="REALIZATION">
+      <point x="-25.25" y="-15.0" />
+      <point x="165.0" y="135.0" />
+      <point x="121.25" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.BufferedReader" target="java.io.Reader" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="287.0" y="215.0" />
+      <point x="190.25" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="137.0" y="225.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

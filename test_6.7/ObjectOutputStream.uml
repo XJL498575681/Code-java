@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.ObjectOutputStream</OriginalElement>
+  <nodes>
+    <node x="52.88970588235287" y="162.0">java.io.OutputStream</node>
+    <node x="288.87499999999994" y="80.0">java.io.DataOutput</node>
+    <node x="243.12499999999994" y="162.0">java.io.ObjectOutput</node>
+    <node x="0.0" y="80.0">java.io.Closeable</node>
+    <node x="218.62499999999994" y="242.0">java.io.ObjectOutputStream</node>
+    <node x="98.5147058823529" y="0.0">java.lang.AutoCloseable</node>
+    <node x="412.12499999999994" y="162.0">java.io.ObjectStreamConstants</node>
+    <node x="138.99999999999997" y="80.0">java.io.Flushable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.ObjectOutputStream" target="java.io.ObjectOutput" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="59.5" y="55.0" />
+      <point x="174.5147058823529" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.OutputStream" target="java.io.Flushable" relationship="REALIZATION">
+      <point x="38.00000000000006" y="-15.0" />
+      <point x="166.88970588235293" y="136.0" />
+      <point x="197.99999999999997" y="136.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.ObjectOutput" target="java.lang.AutoCloseable" relationship="INTERFACE_GENERALIZATION">
+      <point x="-37.25" y="-15.0" />
+      <point x="280.37499999999994" y="136.0" />
+      <point x="278.37499999999994" y="136.0" />
+      <point x="278.37499999999994" y="55.0" />
+      <point x="174.5147058823529" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.OutputStream" target="java.io.Closeable" relationship="REALIZATION">
+      <point x="-37.99999999999994" y="-15.0" />
+      <point x="90.88970588235293" y="136.0" />
+      <point x="59.5" y="136.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.ObjectOutput" target="java.io.DataOutput" relationship="INTERFACE_GENERALIZATION">
+      <point x="37.25" y="-15.0" />
+      <point x="354.87499999999994" y="136.0" />
+      <point x="356.87499999999994" y="136.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.ObjectOutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="-66.0" y="-15.0" />
+      <point x="251.62499999999994" y="217.0" />
+      <point x="128.88970588235287" y="217.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.ObjectOutputStream" target="java.io.ObjectStreamConstants" relationship="REALIZATION">
+      <point x="66.0" y="-15.0" />
+      <point x="383.62499999999994" y="217.0" />
+      <point x="520.125" y="217.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="314.5" y="136.0" />
+  <SelectedNodes>
+    <node>java.io.ObjectOutputStream</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
