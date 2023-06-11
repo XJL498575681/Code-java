@@ -29,5 +29,7 @@ public class PrintStream_ {
         //修改打印流输出的位置
         System.setOut(new PrintStream("e:\\ff.txt"));
         System.out.println("hello ");
+
+
     }
 }
